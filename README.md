@@ -1,290 +1,50 @@
-```html
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AiPPT - 全智能 AI 一键生成 PPT</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
-        }
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 50px 0;
-            background-color: #fff;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-        h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-            color: #2c3e50;
-        }
-        .sub-title {
-            font-size: 18px;
-            color: #7f8c8d;
-            margin-bottom: 30px;
-        }
-        .feature-section {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 50px;
-        }
-        .feature-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: #2c3e50;
-        }
-        .feature-content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .feature-text {
-            max-width: 600px;
-            margin: 0 auto;
-            font-size: 16px;
-            color: #555;
-        }
-        .feature-image {
-            width: 100%;
-            max-width: 600px;
-            margin: 20px auto;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .feature-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .user-evaluation {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 50px;
-        }
-        .evaluation-title {
-            font-size: 22px;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-align: center;
-        }
-        .user-comment {
-            display: flex;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        .user-avatar {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            margin-right: 20px;
-            overflow: hidden;
-        }
-        .user-avatar img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .comment-content {
-            flex: 1;
-        }
-        .user-name {
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #2c3e50;
-        }
-        .user-comment p {
-            color: #555;
-            font-size: 14px;
-        }
-        .advantage-section {
-            margin-bottom: 50px;
-        }
-        .advantage-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-align: center;
-        }
-        .advantage-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-bottom: 30px;
-        }
-        .advantage-item {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
-        .advantage-item h3 {
-            font-size: 18px;
-            margin-bottom: 15px;
-            color: #2c3e50;
-        }
-        .advantage-item p {
-            color: #555;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-        .cooperation-section {
-            margin-bottom: 50px;
-        }
-        .cooperation-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-align: center;
-        }
-        .cooperation-content {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .cooperation-content p {
-            color: #555;
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
-        .api-integration {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .api-integration p {
-            color: #555;
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
-        .cta-section {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .cta-section p {
-            color: #555;
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
-        .qr-code {
-            width: 200px;
-            margin: 0 auto;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .qr-code img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>AiPPT - 全智能 AI 一键生成 PPT</h1>
-            <p class="sub-title">AI 时代，永远不要忘了你有智能助手，是时候告别传统的 PPT 制作方式了</p>
-        </header>
+排名Top1的AiPPT
+AiPPT.cn/AiPPT.com是2023 年像素绽放PixelBloom在 AI+办公领域推出 、帮助用户“一分钟一句话一键生成 PPT”的AI办公产品，目前是国内AiPPT赛道创业公司第1的产品，全球第2，国内所有AIGC产品PC端Top10。
 
-        <section class="feature-section">
-            <h2 class="feature-title">全流程智能，真正的一键生成</h2>
-            <div class="feature-content">
-                <div class="feature-text">PPT 制作本就如此简单，输入标题，PPT 一键自动生成</div>
-                <div class="feature-image">
-                    <img src="https://www.aippt.cn/_nuxt/feature-1.SU8VUsLy.webp" alt="AiPPT 一键生成">
-                </div>
-            </div>
-        </section>
+像素绽放PixelBloom是一家面向全球的 AI办公工具孵化器。致力于打造“下一代个人与组织的 AI工作站”。旗下产品包括AiPPT.cn（国内）/AiPPT.com（海外），爱设计AIGC 内容中台、365 编辑器、爱设计在线设计工具、AiH5、Ai好记Aihaoji.com、VisDoc.cn 等超过 10 余款应用 AI 能力的内容创作工具。
+✨ 关于AiPPT
+在线体验：https://www.aippt.cn/
+演示视频：
 
-        <section class="feature-section">
-            <div class="feature-content">
-                <div class="feature-text">自动生成 PPT 大纲文案，文案生成 + 智能文档梳理，AI 赋能让 PPT 文案不再难</div>
-                <div class="feature-image">
-                    <img src="https://www.aippt.cn/_nuxt/feature-2.CiaqPPjj.webp" alt="AiPPT 自动生成文案">
-                </div>
-            </div>
-        </section>
 
-        <section class="feature-section">
-            <div class="feature-content">
-                <div class="feature-text">文档秒变 PPT，Word 等文档一键转为 PPT，让 PPT 制作极速起飞</div>
-                <div class="feature-image">
-                    <img src="https://www.aippt.cn/_nuxt/feature-3.CrYIVjN6.webp" alt="AiPPT 文档转 PPT">
-                </div>
-            </div>
-        </section>
+🤖 AiPPT.cn四大优势
 
-        <section class="feature-section">
-            <div class="feature-content">
-                <div class="feature-text">提供海量精品模板，AI 一键更换模板，轻松实现 PPT “换装”</div>
-                <div class="feature-image">
-                    <img src="https://www.aippt.cn/_nuxt/feature-4.CFMWhPO5.webp" alt="AiPPT 模板库">
-                </div>
-            </div>
-        </section>
+超1000万人使用的AiPPT.cn，包含四大优势： 
+ 优势一：一句话自动生成 PPT，超1000万+用户的共同选择
+AiPPT.cn，自 2023 年推出，已经为超过 1000 万用户提供了一句话自动生成的 PPT 的服务，并实现了从快速生成PPT到在线简化编辑，再到轻松下载至本地的无缝体验。
 
-        <section class="user-evaluation">
-            <h2 class="evaluation-title">用户评价</h2>
-            <div class="user-comment">
-                <div class="user-avatar">
-                    <img src="https://www.aippt.cn/_nuxt/avatar-4.BY-spAlk.webp" alt="用户头像">
-                </div>
-                <div class="comment-content">
-                    <div class="user-name">创业新手小白</div>
-                    <p>自动生成文案很有意思，思维导图编辑能够帮我整理思路，省了我不少构思内容的时间。</p>
-                </div>
-            </div>
-            <!-- 其他用户评价可参考上述结构继续添加 -->
-        </section>
 
-        <section class="advantage-section">
-            <h2 class="advantage-title">AiPPT.cn四大优势</h2>
-            <div class="advantage-list">
-                <div class="advantage-item">
-                    <h3>一句话自动生成 PPT，超1000万+用户的共同选择</h3>
-                    <p>AiPPT.cn，自 2023 年推出，已经为超过 1000 万用户提供了一句话自动生成的 PPT 的服务，并实现了从快速生成PPT到在线简化编辑，再到轻松下载至本地的无缝体验。</p>
-                </div>
-                <!-- 其他优势项可参考上述结构继续添加 -->
-            </div>
-        </section>
 
-        <section class="cooperation-section">
-            <h2 class="cooperation-title">合作：接入API</h2>
-            <div class="cooperation-content">
-                <p>AiPPT.cn始终秉持“技术开放、生态共生”理念，目前已与多家硬件厂商、互联网产品达成合作。</p>
-                <p>我们呼吁更多硬件伙伴加入这场生产力革命。</p>
-            </div>
-            <div class="api-integration">
-                <p>我们已将AiPPT.cn-API接口全面开放，无论您的机构是网站、还是APP，都能轻松接入我们的AI能力，第三方开发者可以通过 AiPPT.cn-API ，方便地将 AiPPT.cn 集成到开发者自己的应用或者服务中。</p>
-                <p>AiPPT.cn支持代理 & 私有化部署！我们的优势，支持定制化行业解决方案，支持用户自定义模板，技术方案行业领先。</p>
-            </div>
-            <div class="cta-section">
-                <p>如果您也想瞬间接入AiPPT.cn</p>
-                <p>欢迎扫描下方二维码</p>
-                <p>立即申请合作~</p>
-                <div class="qr-code">
-                    <!-- QR 码图片可在此处添加 -->
-                </div>
-            </div>
-        </section>
-    </div>
-</body>
-</html>
-```
+
+优势二： A股上市公司视觉中国战略投资，5亿+版权素材库，10W+PPT 模板，保你图文并茂，版权无忧
+AiPPT.cn结合视觉中国海量优质的正版图片、模板等内容，不断完善智能排版、智能配图等AI能力，探索全新的商业模式，为C端用户提供更加高质量的内容创作体验。
+
+
+
+优势三：智谱生态 Z 基金投资，模型算法通过国家网信办备案，专业模型训练安全合规
+AiPPT.cn与智谱的全方位合作不止体现在“清言 PPT”的产品能力互补上，同时在资本战略上，AiPPT.cn早已获得智谱生态 Z 基金的B1轮融资加持，依托智谱AI领先的国产大模型技术，可以让用户生成的内容更生动、数据更安全。
+
+而在企业客户侧，AiPPT.cn 依托智谱 AI 大模型推出的企业解决方案支持模型训练和微调及外挂知识库等能力，可以根据企事业单位海量的结构化数据和知识库内容进行模型训练、内容检索、内容审核和私有化部署。
+
+技术保障层面，在国家网信办发布了第五批《深度合成服务算法备案信息公告》。“饼干PPT生成算法”顺利通过此次备案，从内容的输入到展现，AiPPT.cn 用实力保证用户在使用过程中不出现内容性风险。
+
+
+
+优势四：从AI基建厂商到 AI 应用层，AiPPT.cn生态合作网络全方位覆盖
+AiPPT.cn凭借灵活的开放式接口、标准化的产品组件功能、优秀的用户体验，目前为止获得了超过 1000+企业合作伙伴的青睐，从AI基建厂商到 AI 应用层，AiPPT.cn生态合作网络实现了全方位覆盖，包括：AMD、英特尔、联想、360、钉钉、人民网等各行业的代表公司，都选择接入AiPPT.cn的能力，赋能自己的用户和员工，经过千锤百炼验证过的AIPPT解决方案，已成为各行业优秀企业进行 AI 办公数字化升级的首选合作伙伴！
+
+🤝 合作：接入API
+
+AiPPT.cn始终秉持“技术开放、生态共生”理念，目前已与多家硬件厂商、互联网产品达成合作。
+
+我们呼吁更多硬件伙伴加入这场生产力革命。
+
+我们已将AiPPT.cn-API接口全面开放，无论您的机构是网站、还是APP，都能轻松接入我们的AI能力，第三方开发者可以通过 AiPPT.cn-API ，方便地将 AiPPT.cn 集成到开发者自己的应用或者服务中。
+
+AiPPT.cn支持代理 & 私有化部署！我们的优势，支持定制化行业解决方案，支持用户自定义模板，技术方案行业领先。
+
+如果您也想瞬间接入AiPPT.cn
+欢迎扫描下方二维码
+立即申请合作~
+
+
